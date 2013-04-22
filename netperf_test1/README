@@ -1,0 +1,10 @@
+
+netperf to a "far away" node, multicast rate set to 24Mbps
+
+the protocols are tested serially in a loop in the following order (note that the order is different that in netperf_test0:
+ 
+ * babel
+ * bmx6
+ * batman-adv
+ * olsr
+

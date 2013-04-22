@@ -1,0 +1,96 @@
+root@alix:~# mtr -nt6 fdba:4:03cc::1[Jroot@alix:~# mtr -nt6 fdba:24:03cc::1[Jroot@alix:~# ping6 fdba:24:03cc::1[Jroot@alix:~# ./trace.sh fdba:24:03cc::1[J
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472361.069695042
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472366.021533573
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472370.983537261
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472375.963982208
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472380.934705622
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472386.003186932
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472391.053581473
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472396.081537023
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472401.045224893
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472405.954796678
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472410.935566238
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472415.945272339
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472420.965023760
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472425.955655374
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472431.043852104
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472436.063061571
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472441.064827752
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472446.151498603
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472451.201524115
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472456.219809619
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472461.317353321
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472466.287965488
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472471.260999843
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472476.279908393
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472481.278483249
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472486.157505385
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472491.102948385
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472496.103477383
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472501.181181320
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472506.005946990
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472511.010488930
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472516.054738920
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472521.043483843
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472526.044966914
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472530.967452531
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472536.064679045
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472541.181910233
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472546.230830097
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472551.201634483
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472556.172517241
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472561.162723751
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472566.211715283
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472571.241089867
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472576.317273241
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472581.407240893
+HOST: alix                        Loss%   Snt   Last   Avg  Best  Wrst StDev
+1366472586.426917552
+^C
+root@alix:~# 
+root@alix:~# 

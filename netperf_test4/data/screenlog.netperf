@@ -1,0 +1,68 @@
+root@alix:~# /etc/init.d/babeld restart[Jroot@alix:~# while true; do ./netperf2.sh 03cc; done[J
+1366472358.208089484
+====> babel
+establish control: are you sure there is a netserver listening on fdba:14:03cc::1 at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdba:14:03cc::1 port 12865 address family AF_INET6
+1366472388.257501118
+====> bmx6
+establish control: are you sure there is a netserver listening on fdba:12:03cc::1 at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdba:12:03cc::1 port 12865 address family AF_INET6
+1366472418.307029606
+====> batadv
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdbb::3cc () port 0 AF_INET6 : demo
+Interim result:  541.43 10^3bits/s over 1.210 seconds ending at 1366472423.315
+Interim result:  883.32 10^3bits/s over 1.484 seconds ending at 1366472424.799
+Interim result: 1284.98 10^3bits/s over 1.020 seconds ending at 1366472425.819
+Interim result: 1125.40 10^3bits/s over 1.165 seconds ending at 1366472426.983
+Interim result:  970.89 10^3bits/s over 1.620 seconds ending at 1366472428.603
+Interim result:  840.50 10^3bits/s over 1.092 seconds ending at 1366472429.695
+Interim result: 1068.00 10^3bits/s over 1.964 seconds ending at 1366472431.659
+Interim result:  701.67 10^3bits/s over 1.494 seconds ending at 1366472433.153
+Interim result:  684.24 10^3bits/s over 1.149 seconds ending at 1366472434.302
+Interim result:  600.37 10^3bits/s over 1.092 seconds ending at 1366472435.394
+Interim result:  467.72 10^3bits/s over 1.401 seconds ending at 1366472436.795
+Interim result:  384.17 10^3bits/s over 1.706 seconds ending at 1366472438.501
+Interim result: 2467.81 10^3bits/s over 1.009 seconds ending at 1366472439.510
+Interim result:  429.73 10^3bits/s over 5.490 seconds ending at 1366472445.000
+Interim result:  378.38 10^3bits/s over 1.386 seconds ending at 1366472446.386
+Interim result:  272.56 10^3bits/s over 1.443 seconds ending at 1366472447.829
+Interim result:  217.38 10^3bits/s over 1.809 seconds ending at 1366472449.638
+Interim result:  633.37 10^3bits/s over 1.242 seconds ending at 1366472450.879
+Interim result:  531.00 10^3bits/s over 1.234 seconds ending at 1366472452.113
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    31.94       644.47   12.60    7.16     1602.036  910.784 
+1366472484.089960096
+====> olsr
+establish control: are you sure there is a netserver listening on fdba:11:03cc::1 at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdba:11:03cc::1 port 12865 address family AF_INET6
+1366472514.135021314
+====> babel
+establish control: are you sure there is a netserver listening on fdba:14:03cc::1 at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdba:14:03cc::1 port 12865 address family AF_INET6
+1366472544.168639605
+====> bmx6
+establish control: are you sure there is a netserver listening on fdba:12:03cc::1 at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdba:12:03cc::1 port 12865 address family AF_INET6
+1366472574.208901480
+====> batadv
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdbb::3cc () port 0 AF_INET6 : demo
+Interim result: 2254.13 10^3bits/s over 1.279 seconds ending at 1366472575.630
+Interim result: 1419.09 10^3bits/s over 1.663 seconds ending at 1366472577.293
+Interim result: 1489.91 10^3bits/s over 1.056 seconds ending at 1366472578.348
+Interim result: 1754.78 10^3bits/s over 1.120 seconds ending at 1366472579.469
+Interim result: 1371.38 10^3bits/s over 1.242 seconds ending at 1366472580.711
+Interim result: 1511.08 10^3bits/s over 1.214 seconds ending at 1366472581.926
+Interim result:  951.19 10^3bits/s over 1.516 seconds ending at 1366472583.441
+Interim result: 1831.88 10^3bits/s over 1.002 seconds ending at 1366472584.443
+Interim result: 3365.08 10^3bits/s over 1.013 seconds ending at 1366472585.456
+Interim result: 3010.69 10^3bits/s over 1.088 seconds ending at 1366472586.544
+Interim result: 3313.15 10^3bits/s over 1.029 seconds ending at 1366472587.573
+Interim result: 3350.78 10^3bits/s over 1.017 seconds ending at 1366472588.590
+Interim result: 3089.64 10^3bits/s over 1.061 seconds ending at 1366472589.650
+Interim result: 4542.78 10^3bits/s over 1.010 seconds ending at 1366472590.660
+^C
+root@alix:~# 

@@ -1,0 +1,4 @@
+
+select two nodes at random and perform sequential pings between them using all protocols
+muticast rate is set to 6Mbps
+

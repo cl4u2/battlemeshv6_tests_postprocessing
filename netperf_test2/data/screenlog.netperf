@@ -1,0 +1,425 @@
+cat neroot@alix:~# cat netperf2.sh [J
+#!/bin/sh
+
+if [ -z $1 ]; then
+	echo "usage: $0 <node id>"
+	exit 1
+fi
+
+test_id=$(date +%s)
+node_id="$1"
+netperf_cmd="netperf -f k -c -C -D 1 -j -l 30 -H"
+
+date +%s.%N
+echo "====> babel"
+$netperf_cmd fdba:14:${node_id}::1 | tee /data/netperf_${test_id}_babel.log 
+sleep 30
+
+date +%s.%N
+echo "====> bmx6"
+$netperf_cmd fdba:12:${node_id}::1 | tee /data/netperf_${test_id}_bmx6.log 
+sleep 30
+
+date +%s.%N
+echo "====> batadv"
+$netperf_cmd fdbb::${node_id} | tee /data/netperf_${test_id}_batadv.log 
+sleep 30
+
+date +%s.%N
+echo "====> olsr"
+$netperf_cmd fdba:11:${node_id}::1 | tee /data/netperf_${test_id}_olsr.log 
+sleep 30
+
+
+root@alix:~# .[Jroot@alix:~# cat netperf2.sh [Jroot@alix:~# while true; do ./netperf2.sh 03cc; done[J
+1366458946.745098137
+====> babel
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:14:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 3099.89 10^3bits/s over 1.057 seconds ending at 1366458947.921
+Interim result: 2942.92 10^3bits/s over 1.203 seconds ending at 1366458949.124
+Interim result: 2537.64 10^3bits/s over 1.446 seconds ending at 1366458950.570
+Interim result: 3287.14 10^3bits/s over 1.715 seconds ending at 1366458952.285
+Interim result: 3960.46 10^3bits/s over 1.092 seconds ending at 1366458953.377
+Interim result: 2192.09 10^3bits/s over 1.794 seconds ending at 1366458955.171
+Interim result: 3267.39 10^3bits/s over 1.003 seconds ending at 1366458956.174
+Interim result: 3288.79 10^3bits/s over 1.076 seconds ending at 1366458957.250
+Interim result:  755.76 10^3bits/s over 4.336 seconds ending at 1366458961.585
+Interim result: 3818.59 10^3bits/s over 1.339 seconds ending at 1366458962.924
+Interim result:  197.30 10^3bits/s over 13.951 seconds ending at 1366458976.875
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    34.00      1216.47   7.58     6.43     498.939  423.235 
+1366459025.570174654
+====> bmx6
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:12:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 1556.48 10^3bits/s over 1.011 seconds ending at 1366459026.655
+Interim result:  348.38 10^3bits/s over 4.139 seconds ending at 1366459030.794
+Interim result:  266.46 10^3bits/s over 1.476 seconds ending at 1366459032.269
+Interim result: 3832.41 10^3bits/s over 1.300 seconds ending at 1366459033.569
+Interim result: 1101.32 10^3bits/s over 3.451 seconds ending at 1366459037.020
+Interim result: 5075.18 10^3bits/s over 1.033 seconds ending at 1366459038.053
+Interim result: 5436.36 10^3bits/s over 1.061 seconds ending at 1366459039.114
+Interim result: 1536.32 10^3bits/s over 3.583 seconds ending at 1366459042.697
+Interim result: 6868.26 10^3bits/s over 1.011 seconds ending at 1366459043.709
+Interim result: 6919.60 10^3bits/s over 1.042 seconds ending at 1366459044.751
+Interim result: 5165.68 10^3bits/s over 1.345 seconds ending at 1366459046.096
+Interim result: 7583.03 10^3bits/s over 1.020 seconds ending at 1366459047.115
+Interim result: 6658.22 10^3bits/s over 1.122 seconds ending at 1366459048.237
+Interim result: 6656.30 10^3bits/s over 1.044 seconds ending at 1366459049.281
+Interim result: 7291.58 10^3bits/s over 1.007 seconds ending at 1366459050.288
+Interim result: 7320.02 10^3bits/s over 1.003 seconds ending at 1366459051.290
+Interim result: 3517.39 10^3bits/s over 2.087 seconds ending at 1366459053.377
+Interim result: 1207.78 10^3bits/s over 2.279 seconds ending at 1366459055.656
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.13      3211.90   9.59     9.56     244.797  243.953 
+1366459085.797220313
+====> batadv
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdbb::3cc () port 0 AF_INET6 : demo
+Interim result:  839.53 10^3bits/s over 1.717 seconds ending at 1366459087.680
+Interim result:  782.78 10^3bits/s over 1.172 seconds ending at 1366459088.852
+Interim result:  874.52 10^3bits/s over 2.848 seconds ending at 1366459091.700
+Interim result: 1806.92 10^3bits/s over 1.088 seconds ending at 1366459092.788
+Interim result: 2015.04 10^3bits/s over 1.041 seconds ending at 1366459093.828
+Interim result:  969.72 10^3bits/s over 2.163 seconds ending at 1366459095.991
+Interim result:  390.81 10^3bits/s over 2.683 seconds ending at 1366459098.674
+Interim result:  352.30 10^3bits/s over 1.116 seconds ending at 1366459099.790
+Interim result: 1643.25 10^3bits/s over 1.037 seconds ending at 1366459100.827
+Interim result: 2318.72 10^3bits/s over 1.018 seconds ending at 1366459101.845
+Interim result: 1634.25 10^3bits/s over 1.363 seconds ending at 1366459103.208
+Interim result: 1025.60 10^3bits/s over 1.661 seconds ending at 1366459104.870
+Interim result: 1029.09 10^3bits/s over 2.293 seconds ending at 1366459107.162
+Interim result: 1814.41 10^3bits/s over 1.084 seconds ending at 1366459108.246
+Interim result: 1806.48 10^3bits/s over 1.161 seconds ending at 1366459109.407
+Interim result:  564.29 10^3bits/s over 3.020 seconds ending at 1366459112.426
+Interim result:  544.90 10^3bits/s over 1.203 seconds ending at 1366459113.629
+Interim result: 2145.21 10^3bits/s over 1.039 seconds ending at 1366459114.668
+Interim result:  603.54 10^3bits/s over 1.303 seconds ending at 1366459115.971
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    31.38      1027.62   9.06     15.84    722.155  1262.850 
+1366459147.390105546
+====> olsr
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:11:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 3538.69 10^3bits/s over 15.927 seconds ending at 1366459163.391
+Interim result: 5922.80 10^3bits/s over 1.062 seconds ending at 1366459164.453
+Interim result: 3729.95 10^3bits/s over 1.581 seconds ending at 1366459166.034
+Interim result: 2364.25 10^3bits/s over 1.608 seconds ending at 1366459167.642
+Interim result: 4393.44 10^3bits/s over 1.402 seconds ending at 1366459169.044
+Interim result: 4991.34 10^3bits/s over 1.155 seconds ending at 1366459170.200
+Interim result: 4788.51 10^3bits/s over 1.232 seconds ending at 1366459171.432
+Interim result: 5939.33 10^3bits/s over 1.170 seconds ending at 1366459172.601
+Interim result: 3840.82 10^3bits/s over 1.536 seconds ending at 1366459174.137
+Interim result: 3708.09 10^3bits/s over 1.060 seconds ending at 1366459175.197
+Interim result: 1850.25 10^3bits/s over 1.984 seconds ending at 1366459177.181
+Interim result: 3212.57 10^3bits/s over 0.286 seconds ending at 1366459177.466
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.39      3673.39   8.71     12.29    194.353  274.201 
+1366459207.954391412
+====> babel
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:14:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 1957.48 10^3bits/s over 1.138 seconds ending at 1366459209.195
+Interim result: 1068.80 10^3bits/s over 1.840 seconds ending at 1366459211.034
+Interim result:  921.44 10^3bits/s over 1.707 seconds ending at 1366459212.741
+Interim result:  867.78 10^3bits/s over 1.057 seconds ending at 1366459213.798
+Interim result: 1186.80 10^3bits/s over 1.215 seconds ending at 1366459215.013
+Interim result: 1583.98 10^3bits/s over 1.076 seconds ending at 1366459216.089
+Interim result:  135.01 10^3bits/s over 10.679 seconds ending at 1366459226.768
+Interim result: 2720.02 10^3bits/s over 1.060 seconds ending at 1366459227.828
+Interim result: 2254.01 10^3bits/s over 1.221 seconds ending at 1366459229.049
+Interim result: 1951.03 10^3bits/s over 1.478 seconds ending at 1366459230.527
+Interim result: 3133.33 10^3bits/s over 1.213 seconds ending at 1366459231.740
+Interim result: 1733.23 10^3bits/s over 1.815 seconds ending at 1366459233.555
+Interim result: 1401.04 10^3bits/s over 1.216 seconds ending at 1366459234.771
+Interim result: 2527.13 10^3bits/s over 1.141 seconds ending at 1366459235.912
+Interim result: 2331.51 10^3bits/s over 1.518 seconds ending at 1366459237.430
+Interim result: 1448.25 10^3bits/s over 0.634 seconds ending at 1366459238.064
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.15      1189.93   7.55     12.51    520.897  863.239 
+1366459268.233502831
+====> bmx6
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:12:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 2422.59 10^3bits/s over 2.056 seconds ending at 1366459270.365
+Interim result: 2442.43 10^3bits/s over 1.020 seconds ending at 1366459271.385
+Interim result: 2645.05 10^3bits/s over 1.388 seconds ending at 1366459272.773
+Interim result: 3043.70 10^3bits/s over 1.034 seconds ending at 1366459273.806
+Interim result: 1989.91 10^3bits/s over 1.515 seconds ending at 1366459275.321
+Interim result: 3042.38 10^3bits/s over 1.120 seconds ending at 1366459276.441
+Interim result: 4540.53 10^3bits/s over 1.010 seconds ending at 1366459277.452
+Interim result: 4650.20 10^3bits/s over 1.015 seconds ending at 1366459278.466
+Interim result: 4148.28 10^3bits/s over 1.106 seconds ending at 1366459279.572
+Interim result: 3972.22 10^3bits/s over 1.056 seconds ending at 1366459280.628
+Interim result: 5488.22 10^3bits/s over 1.194 seconds ending at 1366459281.822
+Interim result: 5095.11 10^3bits/s over 1.080 seconds ending at 1366459282.903
+Interim result: 4003.43 10^3bits/s over 1.277 seconds ending at 1366459284.179
+Interim result: 5608.98 10^3bits/s over 1.052 seconds ending at 1366459285.231
+Interim result: 6662.76 10^3bits/s over 1.102 seconds ending at 1366459286.333
+Interim result: 4961.76 10^3bits/s over 1.347 seconds ending at 1366459287.680
+Interim result: 6279.21 10^3bits/s over 1.127 seconds ending at 1366459288.807
+Interim result: 6775.20 10^3bits/s over 1.083 seconds ending at 1366459289.890
+Interim result: 4757.34 10^3bits/s over 1.405 seconds ending at 1366459291.296
+Interim result: 9363.67 10^3bits/s over 1.064 seconds ending at 1366459292.359
+Interim result: 5377.06 10^3bits/s over 1.755 seconds ending at 1366459294.115
+Interim result: 5296.31 10^3bits/s over 1.015 seconds ending at 1366459295.129
+Interim result: 7308.62 10^3bits/s over 1.094 seconds ending at 1366459296.223
+Interim result: 5621.92 10^3bits/s over 1.282 seconds ending at 1366459297.505
+Interim result: 4830.73 10^3bits/s over 0.814 seconds ending at 1366459298.319
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.36      4644.81   11.94    14.41    210.677  254.297 
+1366459328.694074095
+====> batadv
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdbb::3cc () port 0 AF_INET6 : demo
+Interim result: 2408.67 10^3bits/s over 1.088 seconds ending at 1366459329.938
+Interim result: 1893.56 10^3bits/s over 1.246 seconds ending at 1366459331.184
+Interim result:  661.36 10^3bits/s over 2.775 seconds ending at 1366459333.959
+Interim result: 1910.76 10^3bits/s over 1.029 seconds ending at 1366459334.988
+Interim result: 2619.77 10^3bits/s over 1.001 seconds ending at 1366459335.988
+Interim result: 2561.92 10^3bits/s over 1.023 seconds ending at 1366459337.012
+Interim result: 1421.51 10^3bits/s over 1.752 seconds ending at 1366459338.763
+Interim result: 1561.67 10^3bits/s over 2.266 seconds ending at 1366459341.030
+Interim result: 2069.89 10^3bits/s over 1.203 seconds ending at 1366459342.233
+Interim result:   78.84 10^3bits/s over 16.626 seconds ending at 1366459358.858
+
+
+
+Terminated
+
+
+1366459731.752511313
+====> olsr
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:11:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 3096.02 10^3bits/s over 14.860 seconds ending at 1366459746.701
+Interim result: 4288.91 10^3bits/s over 1.131 seconds ending at 1366459747.831
+Interim result: 5116.31 10^3bits/s over 1.281 seconds ending at 1366459749.112
+Interim result: 5240.10 10^3bits/s over 1.101 seconds ending at 1366459750.213
+Interim result: 4871.67 10^3bits/s over 1.049 seconds ending at 1366459751.262
+Interim result: 4674.80 10^3bits/s over 1.065 seconds ending at 1366459752.328
+Interim result: 5298.68 10^3bits/s over 1.039 seconds ending at 1366459753.366
+Interim result: 5686.17 10^3bits/s over 1.037 seconds ending at 1366459754.404
+Interim result: 5190.50 10^3bits/s over 1.086 seconds ending at 1366459755.490
+Interim result: 4697.85 10^3bits/s over 1.116 seconds ending at 1366459756.606
+Interim result: 5024.39 10^3bits/s over 1.043 seconds ending at 1366459757.649
+Interim result: 5923.32 10^3bits/s over 1.040 seconds ending at 1366459758.689
+Interim result: 3699.37 10^3bits/s over 1.630 seconds ending at 1366459760.319
+Interim result: 3612.21 10^3bits/s over 1.016 seconds ending at 1366459761.335
+Interim result: 2506.11 10^3bits/s over 0.523 seconds ending at 1366459761.858
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.80      3832.55   8.69     12.46    185.825  266.596 
+1366459792.691350189
+====> babel
+establish control: are you sure there is a netserver listening on fdba:14:03cc::1 at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdba:14:03cc::1 port 12865 address family AF_INET6
+1366459825.798139241
+====> bmx6
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:12:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 2304.95 10^3bits/s over 1.024 seconds ending at 1366459827.102
+Interim result: 1834.32 10^3bits/s over 1.215 seconds ending at 1366459828.317
+Interim result: 1805.91 10^3bits/s over 1.016 seconds ending at 1366459829.333
+Interim result:  239.60 10^3bits/s over 7.659 seconds ending at 1366459836.991
+Interim result: 1944.48 10^3bits/s over 1.079 seconds ending at 1366459838.070
+Interim result:  833.12 10^3bits/s over 2.203 seconds ending at 1366459840.273
+Interim result: 1497.44 10^3bits/s over 1.050 seconds ending at 1366459841.323
+Interim result:  771.77 10^3bits/s over 2.038 seconds ending at 1366459843.361
+Interim result:   98.10 10^3bits/s over 8.017 seconds ending at 1366459851.378
+Interim result:  347.33 10^3bits/s over 1.887 seconds ending at 1366459853.265
+Interim result:  512.18 10^3bits/s over 1.280 seconds ending at 1366459854.544
+Interim result:  848.28 10^3bits/s over 1.545 seconds ending at 1366459856.089
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.51       616.44   12.00    10.42    1600.176  1388.951 
+1366459886.629984465
+====> batadv
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdbb::3cc () port 0 AF_INET6 : demo
+Interim result:  771.53 10^3bits/s over 1.359 seconds ending at 1366459888.743
+Interim result:  869.34 10^3bits/s over 28.647 seconds ending at 1366459917.390
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    32.72       793.46   9.64     5.15     995.750  531.559 
+1366459950.372116042
+====> olsr
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:11:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 4946.74 10^3bits/s over 14.812 seconds ending at 1366459965.275
+Interim result: 4673.57 10^3bits/s over 1.066 seconds ending at 1366459966.341
+Interim result: 6515.45 10^3bits/s over 1.127 seconds ending at 1366459967.467
+Interim result: 5328.82 10^3bits/s over 1.205 seconds ending at 1366459968.672
+Interim result: 4273.18 10^3bits/s over 1.258 seconds ending at 1366459969.930
+Interim result: 3114.95 10^3bits/s over 1.389 seconds ending at 1366459971.319
+Interim result: 1314.15 10^3bits/s over 2.394 seconds ending at 1366459973.712
+Interim result: 6126.77 10^3bits/s over 1.198 seconds ending at 1366459974.910
+Interim result: 3793.61 10^3bits/s over 1.624 seconds ending at 1366459976.534
+Interim result: 3443.71 10^3bits/s over 1.104 seconds ending at 1366459977.638
+Interim result: 3036.15 10^3bits/s over 1.122 seconds ending at 1366459978.760
+Interim result: 3317.09 10^3bits/s over 1.423 seconds ending at 1366459980.183
+Interim result: 7360.11 10^3bits/s over 0.285 seconds ending at 1366459980.468
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.80      4300.46   9.86     13.80    187.937  262.976 
+1366460011.307342876
+====> babel
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:14:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 2990.09 10^3bits/s over 1.052 seconds ending at 1366460019.317
+Interim result:   36.21 10^3bits/s over 28.955 seconds ending at 1366460048.272
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    34.00       102.30   7.93     7.23     5263.598  4803.305 
+1366460082.319111757
+====> bmx6
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:12:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 1723.56 10^3bits/s over 1.217 seconds ending at 1366460083.612
+Interim result: 2162.82 10^3bits/s over 1.091 seconds ending at 1366460084.703
+Interim result: 2090.26 10^3bits/s over 1.003 seconds ending at 1366460085.707
+Interim result: 4148.88 10^3bits/s over 1.011 seconds ending at 1366460086.718
+Interim result: 4502.85 10^3bits/s over 1.106 seconds ending at 1366460087.824
+Interim result: 4687.23 10^3bits/s over 1.035 seconds ending at 1366460088.858
+Interim result: 3224.62 10^3bits/s over 1.423 seconds ending at 1366460090.281
+Interim result: 2914.93 10^3bits/s over 1.124 seconds ending at 1366460091.405
+Interim result: 3466.02 10^3bits/s over 1.059 seconds ending at 1366460092.464
+Interim result: 3870.85 10^3bits/s over 1.016 seconds ending at 1366460093.480
+Interim result: 2589.61 10^3bits/s over 1.417 seconds ending at 1366460094.897
+Interim result: 2415.49 10^3bits/s over 1.248 seconds ending at 1366460096.145
+Interim result: 3468.54 10^3bits/s over 1.209 seconds ending at 1366460097.354
+Interim result: 3990.87 10^3bits/s over 1.117 seconds ending at 1366460098.471
+Interim result: 3530.01 10^3bits/s over 1.151 seconds ending at 1366460099.622
+Interim result: 3221.30 10^3bits/s over 1.261 seconds ending at 1366460100.883
+Interim result: 1797.42 10^3bits/s over 1.750 seconds ending at 1366460102.634
+Interim result: 2275.40 10^3bits/s over 1.210 seconds ending at 1366460103.843
+Interim result: 1896.81 10^3bits/s over 1.106 seconds ending at 1366460104.949
+Interim result: 1665.79 10^3bits/s over 1.338 seconds ending at 1366460106.286
+Interim result: 2231.64 10^3bits/s over 2.056 seconds ending at 1366460108.342
+Interim result: 1918.02 10^3bits/s over 1.162 seconds ending at 1366460109.504
+Interim result: 1755.41 10^3bits/s over 1.120 seconds ending at 1366460110.624
+Interim result:  220.75 10^3bits/s over 1.781 seconds ending at 1366460112.405
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.57      2581.29   9.84     8.84     312.298  280.397 
+1366460143.004432561
+====> batadv
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdbb::3cc () port 0 AF_INET6 : demo
+Interim result: 1172.20 10^3bits/s over 2.125 seconds ending at 1366460145.370
+Interim result: 1000.26 10^3bits/s over 1.966 seconds ending at 1366460147.335
+Interim result: 2306.39 10^3bits/s over 1.307 seconds ending at 1366460148.642
+Interim result:  692.87 10^3bits/s over 3.216 seconds ending at 1366460151.858
+Interim result: 1323.16 10^3bits/s over 1.189 seconds ending at 1366460153.047
+Interim result: 1063.63 10^3bits/s over 1.232 seconds ending at 1366460154.279
+Interim result:  408.27 10^3bits/s over 2.568 seconds ending at 1366460156.848
+Interim result: 1009.33 10^3bits/s over 1.299 seconds ending at 1366460158.146
+Interim result: 1570.66 10^3bits/s over 1.001 seconds ending at 1366460159.148
+Interim result: 1450.63 10^3bits/s over 1.446 seconds ending at 1366460160.593
+Interim result: 1675.78 10^3bits/s over 1.017 seconds ending at 1366460161.610
+Interim result: 1830.57 10^3bits/s over 1.289 seconds ending at 1366460162.899
+Interim result:  806.27 10^3bits/s over 2.276 seconds ending at 1366460165.175
+Interim result: 1179.71 10^3bits/s over 2.000 seconds ending at 1366460167.175
+Interim result:  725.88 10^3bits/s over 1.986 seconds ending at 1366460169.161
+Interim result: 1466.05 10^3bits/s over 2.772 seconds ending at 1366460171.932
+Interim result: 1773.37 10^3bits/s over 1.183 seconds ending at 1366460173.115
+Interim result:  995.84 10^3bits/s over 0.132 seconds ending at 1366460173.247
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.24      1148.42   9.72     6.75     695.795  483.113 
+1366460203.523856454
+====> olsr
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:11:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 3013.40 10^3bits/s over 24.140 seconds ending at 1366460227.745
+Interim result: 1548.91 10^3bits/s over 1.946 seconds ending at 1366460229.691
+Interim result: 3589.63 10^3bits/s over 1.022 seconds ending at 1366460230.714
+Interim result: 2370.60 10^3bits/s over 1.493 seconds ending at 1366460232.207
+Interim result: 1711.72 10^3bits/s over 1.378 seconds ending at 1366460233.585
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.66      2783.32   9.59     9.49     282.188  279.489 
+1366460264.328285744
+====> babel
+establish control: are you sure there is a netserver listening on fdba:14:03cc::1 at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdba:14:03cc::1 port 12865 address family AF_INET6
+1366460294.375926481
+====> bmx6
+MIGRATED TCP STREAM TEST from :: (::) port 0 AF_INET6 to fdba:12:3cc::1 () port 0 AF_INET6 : demo
+Interim result: 2336.00 10^3bits/s over 1.403 seconds ending at 1366460295.851
+Interim result: 2934.93 10^3bits/s over 1.027 seconds ending at 1366460296.879
+Interim result: 1831.11 10^3bits/s over 1.575 seconds ending at 1366460298.453
+Interim result: 1305.32 10^3bits/s over 1.406 seconds ending at 1366460299.859
+Interim result: 2272.98 10^3bits/s over 1.038 seconds ending at 1366460300.897
+Interim result: 4022.38 10^3bits/s over 1.010 seconds ending at 1366460301.907
+Interim result: 1861.16 10^3bits/s over 2.113 seconds ending at 1366460304.020
+Interim result: 3524.85 10^3bits/s over 1.487 seconds ending at 1366460305.507
+Interim result: 3016.06 10^3bits/s over 1.173 seconds ending at 1366460306.681
+Interim result: 4445.80 10^3bits/s over 1.002 seconds ending at 1366460307.683
+Interim result: 2227.11 10^3bits/s over 2.001 seconds ending at 1366460309.684
+Interim result: 1744.61 10^3bits/s over 1.277 seconds ending at 1366460310.961
+Interim result: 2599.18 10^3bits/s over 1.009 seconds ending at 1366460311.970
+Interim result: 2747.85 10^3bits/s over 1.383 seconds ending at 1366460313.353
+Interim result: 2348.80 10^3bits/s over 1.172 seconds ending at 1366460314.525
+Interim result: 3296.78 10^3bits/s over 1.034 seconds ending at 1366460315.559
+Interim result: 4600.20 10^3bits/s over 1.083 seconds ending at 1366460316.641
+Interim result: 1962.70 10^3bits/s over 2.404 seconds ending at 1366460319.046
+Interim result: 2672.03 10^3bits/s over 1.472 seconds ending at 1366460320.517
+Interim result: 2155.28 10^3bits/s over 1.277 seconds ending at 1366460321.794
+Interim result: 1474.18 10^3bits/s over 1.423 seconds ending at 1366460323.217
+Interim result: 1581.89 10^3bits/s over 1.077 seconds ending at 1366460324.294
+Interim result: 3900.00 10^3bits/s over 0.168 seconds ending at 1366460324.462
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.09      2485.50   10.16    9.57     335.139  315.854 
+1366460354.573147259
+====> batadv
+establish control: are you sure there is a netserver listening on fdbb::03cc at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdbb::03cc port 12865 address family AF_INET6
+1366460387.532966535
+====> olsr
+establish control: are you sure there is a netserver listening on fdba:11:03cc::1 at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdba:11:03cc::1 port 12865 address family AF_INET6
+1366460418.213432845
+====> babel
+establish control: are you sure there is a netserver listening on fdba:14:03cc::1 at port 12865?
+establish_control could not establish the control connection from ::0 port 0 address family AF_UNSPEC to fdba:14:03cc::1 port 12865 address family AF_INET6
+^C
+root@alix:~# 

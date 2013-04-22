@@ -1,0 +1,39 @@
+
+config system
+	option timezone 'UTC'
+	option hostname 'wbm-60f0'
+
+config timeserver 'ntp'
+	list server '0.openwrt.pool.ntp.org'
+	list server '1.openwrt.pool.ntp.org'
+	list server '2.openwrt.pool.ntp.org'
+	list server '3.openwrt.pool.ntp.org'
+	option enable_server '0'
+
+config led 'led_usb'
+	option name 'USB'
+	option sysfs 'tp-link:green:3g'
+	option trigger 'usbdev'
+	option dev '1-1'
+	option interval '50'
+
+config led 'led_wlan'
+	option name 'WLAN'
+	option sysfs 'tp-link:green:wlan'
+	option trigger 'phy0tpt'
+
+config led 'led_lan'
+	option name 'LAN'
+	option sysfs 'tp-link:green:lan'
+	option trigger 'netdev'
+	option dev 'eth0'
+	option mode 'link tx rx'
+
+PING fdbb::6257(fdbb::6257) 1000 data bytes
+From fdbb::60f0 icmp_seq=1 Destination unreachable: Address unreachable
+From fdbb::60f0 icmp_seq=2 Destination unreachable: Address unreachable
+From fdbb::60f0 icmp_seq=3 Destination unreachable: Address unreachable
+
+--- fdbb::6257 ping statistics ---
+4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 3000ms
+

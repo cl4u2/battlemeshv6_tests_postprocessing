@@ -1,0 +1,615 @@
+
+root@alix:~# 
+root@alix:~# 
+root@alix:~# 
+root@alix:~# root@alix:~# ping6 -i 0.2 -s 1000 fdba:14:42f1::1[J
+PING fdba:14:42f1::1(fdba:14:42f1::1) 1000 data bytes
+1008 bytes from fdba:14:42f1::1: icmp_seq=1 ttl=64 time=1.73 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=2 ttl=64 time=1.16 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=3 ttl=64 time=1.55 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=4 ttl=64 time=1.43 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=5 ttl=64 time=1.27 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=6 ttl=64 time=1.30 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=7 ttl=64 time=1.56 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=8 ttl=64 time=1.59 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=9 ttl=64 time=1.49 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=10 ttl=64 time=1.35 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=11 ttl=64 time=1.30 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=12 ttl=64 time=1.12 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=13 ttl=64 time=1.15 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=14 ttl=64 time=1.44 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=15 ttl=64 time=1.60 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=16 ttl=64 time=1.76 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=17 ttl=64 time=1.85 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=18 ttl=64 time=1.10 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=19 ttl=64 time=1.30 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=20 ttl=64 time=1.35 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=21 ttl=64 time=1.17 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=22 ttl=64 time=19.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=23 ttl=64 time=1.05 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=24 ttl=64 time=1.58 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=25 ttl=64 time=1.29 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=26 ttl=64 time=1.63 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=27 ttl=64 time=1.09 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=28 ttl=64 time=12.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=29 ttl=64 time=1.60 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=30 ttl=64 time=34.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=31 ttl=64 time=26.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=32 ttl=64 time=1.98 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=33 ttl=64 time=2.14 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=34 ttl=64 time=2.47 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=35 ttl=64 time=2.03 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=36 ttl=64 time=6.80 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=37 ttl=64 time=5.74 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=38 ttl=64 time=1.56 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=39 ttl=64 time=1.25 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=40 ttl=64 time=1.74 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=41 ttl=64 time=1.70 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=42 ttl=64 time=1.09 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=43 ttl=64 time=1.18 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=44 ttl=64 time=1.46 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=45 ttl=64 time=1.34 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=46 ttl=64 time=1.55 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=47 ttl=64 time=1.19 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=48 ttl=64 time=1.71 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=49 ttl=64 time=1.66 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=50 ttl=64 time=2.28 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=51 ttl=64 time=1.46 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=52 ttl=64 time=1.07 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=53 ttl=64 time=1.32 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=54 ttl=64 time=1.14 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=55 ttl=64 time=1.25 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=56 ttl=64 time=0.924 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=57 ttl=64 time=1.61 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=58 ttl=64 time=1.77 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=59 ttl=64 time=27.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=60 ttl=64 time=2.95 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=61 ttl=64 time=1.43 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=62 ttl=64 time=1.82 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=63 ttl=64 time=1.25 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=64 ttl=64 time=1.24 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=67 ttl=64 time=97.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=68 ttl=64 time=1.21 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=69 ttl=64 time=1.85 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=70 ttl=64 time=1.07 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=71 ttl=64 time=1.31 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=72 ttl=64 time=1.22 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=73 ttl=64 time=1.27 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=74 ttl=64 time=1.42 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=75 ttl=64 time=1.51 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=76 ttl=64 time=2.33 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=77 ttl=64 time=1.57 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=78 ttl=64 time=1.39 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=79 ttl=64 time=1.93 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=80 ttl=64 time=1.26 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=81 ttl=64 time=1.22 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=82 ttl=64 time=1.43 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=83 ttl=64 time=1.32 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=84 ttl=64 time=2.06 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=85 ttl=64 time=1.24 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=86 ttl=64 time=1.55 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=87 ttl=64 time=3.25 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=88 ttl=64 time=1.42 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=89 ttl=64 time=17.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=90 ttl=64 time=7.63 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=91 ttl=64 time=24.9 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=92 ttl=64 time=1.28 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=93 ttl=64 time=2.02 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=94 ttl=64 time=1.57 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=95 ttl=64 time=3.08 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=96 ttl=64 time=79.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=97 ttl=64 time=9.01 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=98 ttl=64 time=1.29 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=99 ttl=64 time=15.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=100 ttl=64 time=4.29 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=101 ttl=64 time=1.45 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=102 ttl=64 time=51.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=104 ttl=64 time=234 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=106 ttl=64 time=156 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=109 ttl=64 time=53.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=110 ttl=64 time=7.28 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=111 ttl=64 time=205 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=112 ttl=64 time=54.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=113 ttl=64 time=146 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=114 ttl=64 time=66.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=115 ttl=64 time=73.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=117 ttl=64 time=426 ms
+From fdba:24:5ea2::1 icmp_seq=161 Destination unreachable: No route
+ping: sendmsg: Network is unreachable
+From fdba:24:5ea2::1 icmp_seq=162 Destination unreachable: No route
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+From fdba:24:bc79::1 icmp_seq=276 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=277 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=278 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=279 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=280 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=281 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=282 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=286 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=291 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=295 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=300 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=310 Destination unreachable: No route
+From fdba:24:bc79::1 icmp_seq=314 Destination unreachable: No route
+From fdba:14:bfca::1 icmp_seq=340 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=341 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=342 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=343 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=344 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=345 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=346 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=347 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=356 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=360 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=365 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=370 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=375 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=379 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=384 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=389 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=398 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=403 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=412 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=417 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=427 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=431 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=441 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=446 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=455 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=460 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=464 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=469 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=474 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=483 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=488 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=498 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=502 Destination unreachable: No route
+From fdba:14:ebc5::1 icmp_seq=512 Destination unreachable: No route
+1008 bytes from fdba:14:42f1::1: icmp_seq=515 ttl=54 time=25.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=516 ttl=54 time=202 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=517 ttl=54 time=212 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=518 ttl=54 time=252 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=519 ttl=54 time=51.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=520 ttl=54 time=109 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=521 ttl=54 time=290 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=522 ttl=54 time=84.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=523 ttl=54 time=128 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=524 ttl=54 time=18.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=525 ttl=54 time=16.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=526 ttl=54 time=16.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=527 ttl=54 time=20.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=528 ttl=54 time=26.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=529 ttl=54 time=21.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=530 ttl=54 time=23.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=531 ttl=54 time=18.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=532 ttl=54 time=81.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=533 ttl=54 time=22.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=534 ttl=54 time=25.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=535 ttl=54 time=19.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=536 ttl=54 time=13.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=537 ttl=54 time=25.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=538 ttl=54 time=21.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=539 ttl=54 time=16.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=540 ttl=54 time=26.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=541 ttl=54 time=20.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=542 ttl=54 time=27.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=543 ttl=54 time=22.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=544 ttl=54 time=22.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=545 ttl=54 time=14.9 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=546 ttl=54 time=28.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=547 ttl=54 time=38.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=549 ttl=54 time=119 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=550 ttl=53 time=20.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=551 ttl=53 time=18.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=552 ttl=53 time=19.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=553 ttl=53 time=41.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=554 ttl=53 time=30.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=555 ttl=53 time=61.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=556 ttl=53 time=22.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=557 ttl=53 time=21.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=558 ttl=53 time=49.9 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=559 ttl=53 time=93.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=560 ttl=53 time=32.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=561 ttl=53 time=79.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=563 ttl=53 time=75.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=564 ttl=53 time=18.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=565 ttl=53 time=17.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=566 ttl=54 time=13.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=567 ttl=54 time=20.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=568 ttl=54 time=18.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=569 ttl=54 time=47.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=570 ttl=54 time=50.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=571 ttl=54 time=46.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=572 ttl=54 time=19.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=573 ttl=54 time=18.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=574 ttl=54 time=35.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=575 ttl=54 time=17.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=576 ttl=54 time=118 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=577 ttl=55 time=39.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=578 ttl=55 time=13.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=579 ttl=55 time=16.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=580 ttl=56 time=26.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=581 ttl=56 time=29.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=582 ttl=56 time=21.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=583 ttl=56 time=16.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=584 ttl=56 time=18.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=585 ttl=56 time=15.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=586 ttl=56 time=14.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=587 ttl=56 time=14.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=588 ttl=56 time=15.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=589 ttl=56 time=17.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=590 ttl=56 time=28.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=591 ttl=56 time=13.9 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=592 ttl=56 time=16.9 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=593 ttl=56 time=16.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=594 ttl=56 time=13.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=595 ttl=56 time=13.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=596 ttl=56 time=27.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=597 ttl=56 time=19.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=598 ttl=56 time=19.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=599 ttl=56 time=15.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=600 ttl=56 time=21.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=601 ttl=56 time=25.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=602 ttl=56 time=12.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=603 ttl=56 time=13.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=604 ttl=56 time=9.08 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=605 ttl=56 time=21.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=606 ttl=56 time=18.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=607 ttl=56 time=23.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=608 ttl=56 time=16.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=609 ttl=56 time=10.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=610 ttl=56 time=15.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=611 ttl=56 time=16.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=612 ttl=56 time=13.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=613 ttl=56 time=12.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=614 ttl=56 time=16.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=615 ttl=56 time=14.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=616 ttl=56 time=12.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=617 ttl=56 time=13.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=618 ttl=56 time=11.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=619 ttl=56 time=17.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=620 ttl=56 time=10.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=621 ttl=56 time=9.81 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=622 ttl=56 time=20.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=623 ttl=56 time=12.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=624 ttl=56 time=10.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=625 ttl=57 time=10.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=626 ttl=57 time=16.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=627 ttl=57 time=13.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=628 ttl=57 time=9.59 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=629 ttl=57 time=10.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=630 ttl=57 time=19.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=631 ttl=57 time=14.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=632 ttl=57 time=16.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=633 ttl=57 time=10.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=634 ttl=58 time=9.48 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=635 ttl=58 time=102 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=636 ttl=59 time=33.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=637 ttl=59 time=25.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=638 ttl=59 time=15.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=639 ttl=59 time=23.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=640 ttl=59 time=16.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=641 ttl=59 time=10.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=642 ttl=59 time=11.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=643 ttl=59 time=8.41 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=644 ttl=59 time=8.39 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=645 ttl=59 time=17.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=646 ttl=59 time=26.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=647 ttl=59 time=88.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=649 ttl=59 time=274 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=650 ttl=59 time=542 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=651 ttl=59 time=614 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=652 ttl=59 time=400 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=653 ttl=59 time=322 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=654 ttl=59 time=385 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=656 ttl=59 time=403 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=657 ttl=59 time=188 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=658 ttl=59 time=131 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=659 ttl=59 time=270 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=666 ttl=61 time=8.34 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=667 ttl=61 time=11.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=668 ttl=61 time=10.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=669 ttl=61 time=9.36 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=670 ttl=61 time=5.91 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=671 ttl=61 time=10.3 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=672 ttl=61 time=6.33 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=673 ttl=61 time=5.79 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=674 ttl=61 time=8.57 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=675 ttl=61 time=23.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=676 ttl=61 time=13.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=677 ttl=61 time=16.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=678 ttl=61 time=15.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=679 ttl=61 time=10.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=680 ttl=61 time=7.15 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=681 ttl=61 time=7.49 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=682 ttl=61 time=5.42 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=683 ttl=61 time=16.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=684 ttl=61 time=6.09 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=685 ttl=61 time=31.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=686 ttl=61 time=6.47 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=687 ttl=61 time=8.99 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=688 ttl=61 time=8.45 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=689 ttl=61 time=20.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=690 ttl=61 time=10.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=691 ttl=61 time=10.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=692 ttl=61 time=6.79 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=693 ttl=61 time=7.23 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=694 ttl=61 time=8.86 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=695 ttl=61 time=8.19 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=696 ttl=61 time=9.37 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=697 ttl=61 time=5.38 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=698 ttl=61 time=11.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=699 ttl=61 time=5.87 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=700 ttl=61 time=6.32 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=701 ttl=61 time=5.77 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=702 ttl=61 time=5.45 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=703 ttl=61 time=6.31 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=704 ttl=61 time=9.57 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=705 ttl=61 time=12.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=706 ttl=62 time=1457 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=707 ttl=62 time=1244 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=708 ttl=62 time=1032 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=709 ttl=62 time=894 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=710 ttl=62 time=786 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=711 ttl=62 time=588 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=712 ttl=62 time=382 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=713 ttl=62 time=196 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=714 ttl=62 time=5.69 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=715 ttl=62 time=4.35 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=716 ttl=62 time=4.64 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=717 ttl=62 time=6.43 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=718 ttl=62 time=5.61 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=719 ttl=62 time=9.80 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=720 ttl=62 time=5.79 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=721 ttl=62 time=4.92 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=722 ttl=62 time=6.22 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=723 ttl=62 time=6.08 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=724 ttl=62 time=4.26 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=725 ttl=62 time=5.20 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=726 ttl=62 time=4.22 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=727 ttl=62 time=4.74 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=728 ttl=62 time=4.35 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=729 ttl=62 time=4.93 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=730 ttl=62 time=7.57 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=731 ttl=62 time=6.52 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=732 ttl=62 time=6.17 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=733 ttl=62 time=4.92 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=734 ttl=62 time=4.46 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=735 ttl=62 time=6.19 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=736 ttl=62 time=6.13 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=737 ttl=62 time=4.27 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=738 ttl=62 time=4.54 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=739 ttl=62 time=4.07 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=740 ttl=62 time=4.23 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=741 ttl=62 time=4.01 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=742 ttl=62 time=4.32 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=743 ttl=62 time=12.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=744 ttl=62 time=4.77 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=745 ttl=62 time=4.23 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=746 ttl=62 time=3.87 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=747 ttl=62 time=3.64 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=748 ttl=62 time=3.41 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=749 ttl=62 time=4.72 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=750 ttl=62 time=11.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=751 ttl=63 time=26.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=752 ttl=63 time=6.10 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=753 ttl=63 time=3.64 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=754 ttl=63 time=10.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=755 ttl=63 time=4.03 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=756 ttl=63 time=4.50 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=757 ttl=63 time=4.18 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=758 ttl=63 time=6.42 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=759 ttl=63 time=4.77 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=760 ttl=63 time=7.20 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=761 ttl=63 time=15.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=762 ttl=63 time=3.90 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=763 ttl=63 time=3.44 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=764 ttl=63 time=3.29 ms
+MARKKKKKKKKK11008 bytes from fdba:14:42f1::1: icmp_seq=765 ttl=63 time=9.52 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=766 ttl=63 time=10.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=767 ttl=63 time=11.8 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=768 ttl=63 time=10.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=769 ttl=63 time=3.55 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=770 ttl=63 time=19.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=771 ttl=63 time=9.79 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=772 ttl=63 time=3.27 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=773 ttl=63 time=6.03 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=774 ttl=63 time=14.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=775 ttl=63 time=3.18 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=776 ttl=63 time=5.76 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=777 ttl=63 time=23.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=778 ttl=63 time=81.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=779 ttl=63 time=2.04 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=780 ttl=63 time=13.9 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=781 ttl=63 time=5.31 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=782 ttl=63 time=17.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=783 ttl=63 time=30.9 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=784 ttl=63 time=22.4 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=785 ttl=63 time=4.14 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=786 ttl=63 time=2.29 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=787 ttl=63 time=2.52 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=788 ttl=63 time=2.88 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=789 ttl=63 time=2.48 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=790 ttl=63 time=2.26 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=791 ttl=63 time=2.46 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=792 ttl=63 time=7.78 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=793 ttl=63 time=2.38 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=794 ttl=63 time=3.30 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=795 ttl=63 time=196 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=796 ttl=63 time=51.0 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=797 ttl=63 time=121 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=798 ttl=63 time=191 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=799 ttl=63 time=188 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=800 ttl=63 time=162 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=801 ttl=63 time=224 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=802 ttl=63 time=177 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=803 ttl=63 time=188 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=804 ttl=63 time=309 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=805 ttl=63 time=359 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=806 ttl=63 time=481 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=807 ttl=63 time=276 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=808 ttl=63 time=62.2 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=809 ttl=63 time=198 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=810 ttl=63 time=50.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=811 ttl=63 time=91.1 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=812 ttl=63 time=12.7 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=813 ttl=63 time=2.16 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=814 ttl=63 time=8.19 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=815 ttl=63 time=2.24 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=816 ttl=63 time=3.93 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=817 ttl=63 time=2.24 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=818 ttl=63 time=11.5 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=819 ttl=63 time=3.53 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=820 ttl=63 time=6.32 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=821 ttl=64 time=2.08 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=822 ttl=64 time=6.43 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=823 ttl=64 time=1.19 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=824 ttl=64 time=1.33 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=825 ttl=64 time=1.47 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=826 ttl=64 time=1.23 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=827 ttl=64 time=1.18 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=828 ttl=64 time=1.58 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=829 ttl=64 time=11.6 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=830 ttl=64 time=1.39 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=831 ttl=64 time=1.17 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=832 ttl=64 time=1.17 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=833 ttl=64 time=1.28 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=834 ttl=64 time=1.29 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=835 ttl=64 time=1.22 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=836 ttl=64 time=1.25 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=837 ttl=64 time=1.33 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=838 ttl=64 time=1.24 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=839 ttl=64 time=1.23 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=840 ttl=64 time=1.45 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=841 ttl=64 time=1.22 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=842 ttl=64 time=1.24 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=843 ttl=64 time=1.05 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=844 ttl=64 time=1.26 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=845 ttl=64 time=1.40 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=846 ttl=64 time=2.81 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=847 ttl=64 time=1.36 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=848 ttl=64 time=1.18 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=849 ttl=64 time=1.39 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=850 ttl=64 time=1.13 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=851 ttl=64 time=1.19 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=852 ttl=64 time=1.20 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=853 ttl=64 time=2.15 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=854 ttl=64 time=1.20 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=855 ttl=64 time=1.19 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=856 ttl=64 time=1.19 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=857 ttl=64 time=1.27 ms
+1008 bytes from fdba:14:42f1::1: icmp_seq=858 ttl=64 time=1.18 ms
+Terminated
+root@alix:~# MARKKKKKKKKK1
+root@alix:~# 
