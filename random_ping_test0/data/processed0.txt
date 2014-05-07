@@ -1,0 +1,1151 @@
+date +%s.%N
+=====================================
+1366465094.744302770
+--
+--- fdbb::f9e0 ping statistics ---
+654 packets transmitted, 171 received, 73% packet loss, time 29999ms
+rtt min/avg/max/mdev = 452.286/5077.102/24402.117/6439.630 ms, pipe 420
+--
+--- fdba:11:f9e0::1 ping statistics ---
+1141 packets transmitted, 1000 received, 12% packet loss, time 19157ms
+rtt min/avg/max/mdev = 8.149/1150.875/2359.368/500.288 ms, pipe 137
+--
+--- fdba:12:f9e0::1 ping statistics ---
+1484 packets transmitted, 1000 received, 32% packet loss, time 25224ms
+rtt min/avg/max/mdev = 8.152/2716.997/13164.546/3022.965 ms, pipe 766
+--
+date +%s.%N
+=====================================
+1366465195.010013348
+--
+--- fdbb::5691 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 12009ms
+rtt min/avg/max/mdev = 1.212/10.722/182.725/22.013 ms, pipe 11
+--
+--- fdba:11:5691::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 11067ms
+rtt min/avg/max/mdev = 1.088/8.134/178.717/15.965 ms, pipe 11
+--
+--- fdba:12:5691::1 ping statistics ---
+1001 packets transmitted, 1000 received, 0% packet loss, time 13790ms
+rtt min/avg/max/mdev = 1.167/40.156/330.390/50.703 ms, pipe 16
+--
+--- fdba:14:5691::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10778ms
+rtt min/avg/max/mdev = 1.076/7.526/212.279/21.424 ms, pipe 12
+--
+date +%s.%N
+=====================================
+1366465258.090848106
+--
+date +%s.%N
+=====================================
+1366465258.310105061
+--
+date +%s.%N
+=====================================
+1366465258.504003385
+--
+date +%s.%N
+=====================================
+1366465258.785350377
+--
+date +%s.%N
+=====================================
+1366465259.313330628
+--
+date +%s.%N
+=====================================
+1366465259.541820621
+--
+date +%s.%N
+=====================================
+1366465259.719492252
+--
+--- fdbb::af0e ping statistics ---
+1019 packets transmitted, 1000 received, 1% packet loss, time 14800ms
+rtt min/avg/max/mdev = 1.099/18.567/243.659/37.720 ms, pipe 9
+--
+--- fdba:11:af0e::1 ping statistics ---
+1007 packets transmitted, 1000 received, 0% packet loss, time 12969ms
+rtt min/avg/max/mdev = 0.996/12.161/213.723/29.728 ms, pipe 9
+--
+--- fdba:12:af0e::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10546ms
+rtt min/avg/max/mdev = 1.008/5.049/82.313/8.027 ms, pipe 5
+--
+--- fdba:14:af0e::1 ping statistics ---
+1001 packets transmitted, 1000 received, 0% packet loss, time 11632ms
+rtt min/avg/max/mdev = 1.127/9.207/84.407/11.958 ms, pipe 5
+--
+date +%s.%N
+=====================================
+1366465324.969207411
+--
+date +%s.%N
+=====================================
+1366465325.204271914
+--
+date +%s.%N
+=====================================
+1366465325.398914935
+--
+date +%s.%N
+=====================================
+1366465325.672263513
+--
+date +%s.%N
+=====================================
+1366465326.180808258
+--
+date +%s.%N
+=====================================
+1366465326.412205368
+--
+date +%s.%N
+=====================================
+1366465326.586816056
+--
+--- fdbb::db4 ping statistics ---
+1018 packets transmitted, 1000 received, 1% packet loss, time 14404ms
+rtt min/avg/max/mdev = 4.777/178.218/2172.284/454.971 ms, pipe 122
+--
+--- fdba:11:db4::1 ping statistics ---
+1032 packets transmitted, 1000 received, 3% packet loss, time 12232ms
+rtt min/avg/max/mdev = 4.356/21.903/450.058/50.207 ms, pipe 27
+--
+--- fdba:12:db4::1 ping statistics ---
+1003 packets transmitted, 1000 received, 0% packet loss, time 11007ms
+rtt min/avg/max/mdev = 3.850/15.764/241.614/32.333 ms, pipe 16
+--
+--- fdba:14:db4::1 ping statistics ---
+1075 packets transmitted, 1000 received, 6% packet loss, time 16821ms
+rtt min/avg/max/mdev = 7.021/828.190/3227.923/987.484 ms, pipe 194
+--
+date +%s.%N
+=====================================
+1366465392.722953182
+--
+date +%s.%N
+=====================================
+1366465392.942209391
+--
+date +%s.%N
+=====================================
+1366465393.136690732
+--
+date +%s.%N
+=====================================
+1366465393.410235570
+--
+date +%s.%N
+=====================================
+1366465393.925725133
+--
+date +%s.%N
+=====================================
+1366465394.148720161
+--
+date +%s.%N
+=====================================
+1366465394.311238361
+--
+--- fdbb::81c5 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 13174ms
+rtt min/avg/max/mdev = 4.942/20.054/195.886/19.681 ms, pipe 11
+--
+--- fdba:11:81c5::1 ping statistics ---
+1001 packets transmitted, 1000 received, 0% packet loss, time 10190ms
+rtt min/avg/max/mdev = 3.243/5.248/113.094/5.773 ms, pipe 7
+--
+--- fdba:12:81c5::1 ping statistics ---
+1090 packets transmitted, 1000 received, 8% packet loss, time 12110ms
+rtt min/avg/max/mdev = 3.547/13.737/483.888/46.499 ms, pipe 27
+--
+--- fdba:14:81c5::1 ping statistics ---
+1024 packets transmitted, 1007 received, 1% packet loss, time 13322ms
+rtt min/avg/max/mdev = 3.506/104.754/982.110/215.180 ms, pipe 55
+--
+date +%s.%N
+=====================================
+1366465457.582440470
+--
+date +%s.%N
+=====================================
+1366465457.797559488
+--
+date +%s.%N
+=====================================
+1366465457.989094702
+--
+date +%s.%N
+=====================================
+1366465458.264957173
+--
+date +%s.%N
+=====================================
+1366465458.780550425
+--
+date +%s.%N
+=====================================
+1366465459.000804215
+--
+date +%s.%N
+=====================================
+1366465459.165869643
+--
+--- fdbb::5e93 ping statistics ---
+1003 packets transmitted, 1000 received, 0% packet loss, time 13251ms
+rtt min/avg/max/mdev = 5.856/19.055/234.280/24.231 ms, pipe 8
+--
+--- fdba:11:5e93::1 ping statistics ---
+1057 packets transmitted, 1000 received, 5% packet loss, time 15101ms
+rtt min/avg/max/mdev = 5.524/47.631/869.887/137.196 ms, pipe 47
+--
+--- fdba:12:5e93::1 ping statistics ---
+1001 packets transmitted, 1000 received, 0% packet loss, time 13838ms
+rtt min/avg/max/mdev = 5.684/22.686/154.366/21.389 ms, pipe 10
+--
+--- fdba:14:5e93::1 ping statistics ---
+1052 packets transmitted, 1000 received, 4% packet loss, time 16204ms
+rtt min/avg/max/mdev = 6.207/239.293/1105.030/316.850 ms, pipe 69
+--
+date +%s.%N
+=====================================
+1366465540.299686102
+--
+date +%s.%N
+=====================================
+1366465540.524313191
+--
+date +%s.%N
+=====================================
+1366465540.717149661
+--
+date +%s.%N
+=====================================
+1366465540.995903040
+--
+date +%s.%N
+=====================================
+1366465541.506314551
+--
+date +%s.%N
+=====================================
+1366465541.730406475
+--
+date +%s.%N
+=====================================
+1366465541.892816686
+--
+--- fdbb::468a ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 13271ms
+rtt min/avg/max/mdev = 1.984/42.699/666.545/83.328 ms, pipe 34
+--
+--- fdba:11:468a::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10306ms
+rtt min/avg/max/mdev = 2.095/6.388/204.957/15.111 ms, pipe 13
+--
+--- fdba:12:468a::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10056ms
+rtt min/avg/max/mdev = 2.005/2.956/13.442/1.108 ms, pipe 2
+--
+--- fdba:14:468a::1 ping statistics ---
+1007 packets transmitted, 1000 received, 0% packet loss, time 10707ms
+rtt min/avg/max/mdev = 1.919/6.690/120.085/9.314 ms, pipe 5
+--
+date +%s.%N
+=====================================
+1366465597.613927933
+--
+date +%s.%N
+=====================================
+1366465597.837972452
+--
+date +%s.%N
+=====================================
+1366465598.021278593
+--
+date +%s.%N
+=====================================
+1366465598.302384518
+--
+date +%s.%N
+=====================================
+1366465598.841605080
+--
+date +%s.%N
+=====================================
+1366465599.063915232
+--
+date +%s.%N
+=====================================
+1366465599.227219400
+--
+--- fdbb::ad2c ping statistics ---
+1031 packets transmitted, 1000 received, 3% packet loss, time 18811ms
+rtt min/avg/max/mdev = 7.541/218.453/2379.620/280.134 ms, pipe 86
+--
+--- fdba:12:ad2c::1 ping statistics ---
+1004 packets transmitted, 1000 received, 0% packet loss, time 15324ms
+rtt min/avg/max/mdev = 5.369/80.732/907.330/164.187 ms, pipe 46
+--
+date +%s.%N
+=====================================
+1366465665.412386367
+--
+date +%s.%N
+=====================================
+1366465665.631802343
+--
+date +%s.%N
+=====================================
+1366465665.825246586
+--
+date +%s.%N
+=====================================
+1366465666.096516134
+--
+date +%s.%N
+=====================================
+1366465666.636189045
+--
+date +%s.%N
+=====================================
+1366465666.862384279
+--
+date +%s.%N
+=====================================
+1366465667.021612665
+--
+--- fdbb::534c ping statistics ---
+847 packets transmitted, 807 received, 4% packet loss, time 29984ms
+rtt min/avg/max/mdev = 31.939/892.577/4365.781/1000.588 ms, pipe 114
+--
+--- fdba:11:534c::1 ping statistics ---
+1830 packets transmitted, 863 received, 52% packet loss, time 29984ms
+rtt min/avg/max/mdev = 514.465/3122.682/7553.089/1463.218 ms, pipe 456
+--
+--- fdba:12:534c::1 ping statistics ---
+1147 packets transmitted, 1000 received, 12% packet loss, time 18103ms
+rtt min/avg/max/mdev = 6.193/1751.474/10960.881/1254.038 ms, pipe 684
+--
+--- fdba:14:534c::1 ping statistics ---
+648 packets transmitted, 10 received, +1 errors, 98% packet loss, time 11259ms
+rtt min/avg/max/mdev = 64.573/222.782/541.021/147.582 ms, pipe 32
+--
+date +%s.%N
+=====================================
+1366465769.408647101
+--
+date +%s.%N
+=====================================
+1366465769.617995518
+--
+date +%s.%N
+=====================================
+1366465769.812415670
+--
+date +%s.%N
+=====================================
+1366465770.085196520
+--
+date +%s.%N
+=====================================
+1366465770.622447869
+--
+date +%s.%N
+=====================================
+1366465770.836044158
+--
+date +%s.%N
+=====================================
+1366465770.998566122
+--
+--- fdbb::af0e ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10750ms
+rtt min/avg/max/mdev = 3.261/9.669/271.221/23.249 ms, pipe 17
+--
+--- fdba:11:af0e::1 ping statistics ---
+1001 packets transmitted, 1000 received, 0% packet loss, time 10397ms
+rtt min/avg/max/mdev = 2.378/4.197/183.685/9.343 ms, pipe 5
+--
+--- fdba:12:af0e::1 ping statistics ---
+716 packets transmitted, 697 received, +1 errors, 2% packet loss, time 13488ms
+rtt min/avg/max/mdev = 2.553/71.569/489.455/97.618 ms, pipe 22
+--
+--- fdba:14:af0e::1 ping statistics ---
+1011 packets transmitted, 1000 received, 1% packet loss, time 14840ms
+rtt min/avg/max/mdev = 3.098/49.830/966.414/105.144 ms, pipe 38
+--
+date +%s.%N
+=====================================
+1366465833.331270014
+--
+date +%s.%N
+=====================================
+1366465833.546300826
+--
+date +%s.%N
+=====================================
+1366465833.740637938
+--
+date +%s.%N
+=====================================
+1366465834.022879389
+--
+date +%s.%N
+=====================================
+1366465834.551262238
+--
+date +%s.%N
+=====================================
+1366465834.782627575
+--
+date +%s.%N
+=====================================
+1366465834.957550140
+--
+--- fdbb::534c ping statistics ---
+1660 packets transmitted, 786 received, 52% packet loss, time 29957ms
+rtt min/avg/max/mdev = 5.698/4770.235/9047.757/3074.735 ms, pipe 507
+--
+--- fdba:11:534c::1 ping statistics ---
+1711 packets transmitted, 521 received, 69% packet loss, time 29990ms
+rtt min/avg/max/mdev = 20.010/4145.729/15448.434/4665.282 ms, pipe 898
+--
+--- fdba:12:534c::1 ping statistics ---
+1738 packets transmitted, 1000 received, 42% packet loss, time 28774ms
+rtt min/avg/max/mdev = 5.186/1232.465/7032.428/1820.710 ms, pipe 411
+--
+date +%s.%N
+=====================================
+1366465937.975979411
+--
+date +%s.%N
+=====================================
+1366465938.198334296
+--
+date +%s.%N
+=====================================
+1366465938.389155099
+--
+date +%s.%N
+=====================================
+1366465938.661539507
+--
+date +%s.%N
+=====================================
+1366465939.190657540
+--
+date +%s.%N
+=====================================
+1366465939.409147505
+--
+date +%s.%N
+=====================================
+1366465939.577243788
+--
+--- fdbb::a165 ping statistics ---
+1005 packets transmitted, 1000 received, 0% packet loss, time 20248ms
+rtt min/avg/max/mdev = 3.493/129.628/1043.135/205.864 ms, pipe 60
+--
+--- fdba:11:a165::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10250ms
+rtt min/avg/max/mdev = 2.278/4.667/109.380/8.270 ms, pipe 8
+--
+--- fdba:12:a165::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10044ms
+rtt min/avg/max/mdev = 2.369/3.681/17.505/1.583 ms, pipe 2
+--
+--- fdba:14:a165::1 ping statistics ---
+1021 packets transmitted, 1000 received, 2% packet loss, time 20066ms
+rtt min/avg/max/mdev = 2.778/91.519/1068.913/155.349 ms, pipe 32
+--
+date +%s.%N
+=====================================
+1366466043.879572605
+--
+date +%s.%N
+=====================================
+1366466044.097161621
+--
+date +%s.%N
+=====================================
+1366466044.290675557
+--
+date +%s.%N
+=====================================
+1366466044.562364273
+--
+date +%s.%N
+=====================================
+1366466045.081543238
+--
+date +%s.%N
+=====================================
+1366466045.298832418
+--
+date +%s.%N
+=====================================
+1366466045.467506149
+--
+--- fdbb::ed38 ping statistics ---
+1581 packets transmitted, 970 received, 38% packet loss, time 29991ms
+rtt min/avg/max/mdev = 5.934/1911.203/5273.984/872.117 ms, pipe 301
+--
+--- fdba:11:ed38::1 ping statistics ---
+1482 packets transmitted, 22 received, +1 errors, 98% packet loss, time 25953ms
+rtt min/avg/max/mdev = 302.933/467.480/632.768/103.529 ms, pipe 37
+--
+--- fdba:12:ed38::1 ping statistics ---
+166 packets transmitted, 0 received, +1 errors, 100% packet loss, time 2983ms
+
+--
+--- fdba:14:ed38::1 ping statistics ---
+299 packets transmitted, 0 received, +3 errors, 100% packet loss, time 6381ms
+
+--
+date +%s.%N
+=====================================
+1366466125.016269353
+--
+date +%s.%N
+=====================================
+1366466125.259488474
+--
+date +%s.%N
+=====================================
+1366466125.446101077
+--
+date +%s.%N
+=====================================
+1366466125.727096566
+--
+date +%s.%N
+=====================================
+1366466126.254742801
+--
+date +%s.%N
+=====================================
+1366466126.518537791
+--
+date +%s.%N
+=====================================
+1366466126.679726611
+--
+--- fdbb::cc08 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10881ms
+rtt min/avg/max/mdev = 2.207/8.597/109.140/10.716 ms, pipe 6
+--
+--- fdba:11:cc08::1 ping statistics ---
+1006 packets transmitted, 1000 received, 0% packet loss, time 10254ms
+rtt min/avg/max/mdev = 2.572/5.043/193.727/13.458 ms, pipe 12
+--
+--- fdba:12:cc08::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10064ms
+rtt min/avg/max/mdev = 2.079/2.673/10.063/0.766 ms
+--
+--- fdba:14:cc08::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 11205ms
+rtt min/avg/max/mdev = 2.251/9.269/163.002/15.687 ms, pipe 8
+--
+date +%s.%N
+=====================================
+1366466227.360777709
+--
+date +%s.%N
+=====================================
+1366466227.577707275
+--
+date +%s.%N
+=====================================
+1366466227.771474135
+--
+date +%s.%N
+=====================================
+1366466228.043579393
+--
+date +%s.%N
+=====================================
+1366466228.581797353
+--
+date +%s.%N
+=====================================
+1366466228.819751191
+--
+date +%s.%N
+=====================================
+1366466228.986705949
+--
+--- fdbb::81c5 ping statistics ---
+1002 packets transmitted, 1000 received, 0% packet loss, time 10311ms
+rtt min/avg/max/mdev = 1.281/3.404/97.358/5.654 ms, pipe 3
+--
+--- fdba:11:81c5::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10112ms
+rtt min/avg/max/mdev = 1.063/1.672/9.256/0.729 ms
+--
+--- fdba:12:81c5::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10090ms
+rtt min/avg/max/mdev = 0.865/1.823/19.322/1.379 ms, pipe 2
+--
+--- fdba:14:81c5::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10101ms
+rtt min/avg/max/mdev = 1.069/1.995/74.410/4.188 ms, pipe 6
+--
+date +%s.%N
+=====================================
+1366466280.935072725
+--
+date +%s.%N
+=====================================
+1366466281.152839696
+--
+date +%s.%N
+=====================================
+1366466281.346517769
+--
+date +%s.%N
+=====================================
+1366466281.617979108
+--
+date +%s.%N
+=====================================
+1366466282.176479463
+--
+date +%s.%N
+=====================================
+1366466282.394093525
+--
+date +%s.%N
+=====================================
+1366466282.562482914
+--
+--- fdbb::bfca ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10364ms
+rtt min/avg/max/mdev = 1.163/4.305/103.516/8.681 ms, pipe 6
+--
+--- fdba:11:bfca::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10157ms
+rtt min/avg/max/mdev = 0.961/1.418/5.673/0.503 ms
+--
+--- fdba:12:bfca::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10148ms
+rtt min/avg/max/mdev = 0.892/1.338/6.072/0.359 ms
+--
+--- fdba:14:bfca::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10050ms
+rtt min/avg/max/mdev = 0.955/1.395/5.491/0.436 ms
+--
+date +%s.%N
+=====================================
+1366466335.044495867
+--
+date +%s.%N
+=====================================
+1366466335.282520511
+--
+date +%s.%N
+=====================================
+1366466335.468894445
+--
+date +%s.%N
+=====================================
+1366466335.749567671
+--
+date +%s.%N
+=====================================
+1366466336.250340111
+--
+date +%s.%N
+=====================================
+1366466336.472924279
+--
+date +%s.%N
+=====================================
+1366466336.635841209
+--
+--- fdbb::a165 ping statistics ---
+1362 packets transmitted, 1004 received, 26% packet loss, time 23369ms
+rtt min/avg/max/mdev = 18.360/1507.442/4067.933/919.123 ms, pipe 232
+--
+--- fdba:11:a165::1 ping statistics ---
+1010 packets transmitted, 1000 received, 0% packet loss, time 14651ms
+rtt min/avg/max/mdev = 4.490/63.273/799.790/115.716 ms, pipe 44
+--
+--- fdba:12:a165::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 11216ms
+rtt min/avg/max/mdev = 4.168/10.447/106.735/10.269 ms, pipe 7
+--
+date +%s.%N
+=====================================
+1366466399.396144460
+--
+date +%s.%N
+=====================================
+1366466399.621394041
+--
+date +%s.%N
+=====================================
+1366466399.806037578
+--
+date +%s.%N
+=====================================
+1366466400.089175456
+--
+date +%s.%N
+=====================================
+1366466400.616437269
+--
+date +%s.%N
+=====================================
+1366466400.839037806
+--
+date +%s.%N
+=====================================
+1366466401.002697025
+--
+--- fdbb::800c ping statistics ---
+910 packets transmitted, 701 received, 22% packet loss, time 29998ms
+rtt min/avg/max/mdev = 46.607/1074.845/3527.082/831.142 ms, pipe 118
+--
+--- fdba:11:800c::1 ping statistics ---
+596 packets transmitted, 331 received, +1 errors, 44% packet loss, time 22325ms
+rtt min/avg/max/mdev = 50.455/398.962/2752.813/366.871 ms, pipe 76
+--
+--- fdba:12:800c::1 ping statistics ---
+1145 packets transmitted, 1000 received, 12% packet loss, time 18672ms
+rtt min/avg/max/mdev = 6.485/1186.917/4637.743/1074.058 ms, pipe 282
+--
+date +%s.%N
+=====================================
+1366466567.387692613
+--
+date +%s.%N
+=====================================
+1366466567.605414998
+--
+date +%s.%N
+=====================================
+1366466567.798391424
+--
+date +%s.%N
+=====================================
+1366466568.072555424
+--
+date +%s.%N
+=====================================
+1366466568.610724816
+--
+date +%s.%N
+=====================================
+1366466568.833806470
+--
+date +%s.%N
+=====================================
+1366466569.006014135
+--
+--- fdba:11:5e93::1 ping statistics ---
+1012 packets transmitted, 1002 received, 0% packet loss, time 13451ms
+rtt min/avg/max/mdev = 4.417/67.973/785.945/124.014 ms, pipe 46
+--
+--- fdba:12:5e93::1 ping statistics ---
+1048 packets transmitted, 1000 received, 4% packet loss, time 16742ms
+rtt min/avg/max/mdev = 5.311/264.101/834.685/197.566 ms, pipe 49
+--
+--- fdba:14:5e93::1 ping statistics ---
+212 packets transmitted, 206 received, +1 errors, 2% packet loss, time 3539ms
+rtt min/avg/max/mdev = 7.238/303.151/1176.565/317.840 ms, pipe 71
+--
+date +%s.%N
+=====================================
+1366466617.513794588
+--
+date +%s.%N
+=====================================
+1366466617.732728601
+--
+date +%s.%N
+=====================================
+1366466617.917078051
+--
+date +%s.%N
+=====================================
+1366466618.188286224
+--
+date +%s.%N
+=====================================
+1366466618.737837321
+--
+date +%s.%N
+=====================================
+1366466618.966483924
+--
+date +%s.%N
+=====================================
+1366466619.122093994
+--
+--- fdbb::81c5 ping statistics ---
+1075 packets transmitted, 1002 received, 6% packet loss, time 16634ms
+rtt min/avg/max/mdev = 4.510/656.247/1823.434/681.261 ms, pipe 106
+--
+--- fdba:11:81c5::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 11341ms
+rtt min/avg/max/mdev = 3.255/12.755/313.665/26.334 ms, pipe 12
+--
+--- fdba:12:81c5::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 11088ms
+rtt min/avg/max/mdev = 2.966/9.369/72.083/9.437 ms, pipe 5
+--
+--- fdba:14:81c5::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 11174ms
+rtt min/avg/max/mdev = 3.452/10.445/101.212/9.337 ms, pipe 7
+--
+date +%s.%N
+=====================================
+1366466684.596085367
+--
+date +%s.%N
+=====================================
+1366466684.817936635
+--
+date +%s.%N
+=====================================
+1366466685.007883144
+--
+date +%s.%N
+=====================================
+1366466685.296892374
+--
+date +%s.%N
+=====================================
+1366466685.837828448
+--
+date +%s.%N
+=====================================
+1366466686.054265537
+--
+date +%s.%N
+=====================================
+1366466686.214013067
+--
+--- fdbb::44f ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 11078ms
+rtt min/avg/max/mdev = 1.251/7.055/310.954/23.218 ms, pipe 5
+--
+--- fdba:11:44f::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10338ms
+rtt min/avg/max/mdev = 1.084/4.435/99.843/7.922 ms, pipe 6
+--
+--- fdba:12:44f::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10052ms
+rtt min/avg/max/mdev = 1.089/1.591/10.280/0.758 ms
+--
+--- fdba:14:44f::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10043ms
+rtt min/avg/max/mdev = 1.088/1.458/5.833/0.359 ms
+--
+date +%s.%N
+=====================================
+1366466738.925892170
+--
+date +%s.%N
+=====================================
+1366466739.140738045
+--
+date +%s.%N
+=====================================
+1366466739.335097347
+--
+date +%s.%N
+=====================================
+1366466739.606013540
+--
+date +%s.%N
+=====================================
+1366466740.118815568
+--
+date +%s.%N
+=====================================
+1366466740.338605208
+--
+date +%s.%N
+=====================================
+1366466740.501735717
+--
+--- fdbb::81c5 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10593ms
+rtt min/avg/max/mdev = 1.079/1.767/11.295/0.912 ms
+--
+--- fdba:11:81c5::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10113ms
+rtt min/avg/max/mdev = 0.919/1.605/9.092/0.672 ms
+--
+--- fdba:12:81c5::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10197ms
+rtt min/avg/max/mdev = 1.022/1.747/33.312/1.612 ms, pipe 2
+--
+--- fdba:14:81c5::1 ping statistics ---
+1001 packets transmitted, 1000 received, 0% packet loss, time 16067ms
+rtt min/avg/max/mdev = 1.044/36.337/6809.197/355.939 ms, pipe 340
+--
+date +%s.%N
+=====================================
+1366466798.912849143
+--
+date +%s.%N
+=====================================
+1366466799.132410900
+--
+date +%s.%N
+=====================================
+1366466799.316256035
+--
+date +%s.%N
+=====================================
+1366466799.587688222
+--
+date +%s.%N
+=====================================
+1366466800.107731446
+--
+date +%s.%N
+=====================================
+1366466800.329278842
+--
+date +%s.%N
+=====================================
+1366466800.493431060
+--
+--- fdbb::bc79 ping statistics ---
+1025 packets transmitted, 1000 received, 2% packet loss, time 14195ms
+rtt min/avg/max/mdev = 3.564/237.964/5569.143/698.571 ms, pipe 362
+--
+--- fdba:11:bc79::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10211ms
+rtt min/avg/max/mdev = 3.122/4.549/24.658/1.695 ms, pipe 2
+--
+--- fdba:12:bc79::1 ping statistics ---
+1033 packets transmitted, 1000 received, 3% packet loss, time 11374ms
+rtt min/avg/max/mdev = 3.211/14.346/493.813/49.945 ms, pipe 29
+--
+--- fdba:14:bc79::1 ping statistics ---
+1002 packets transmitted, 1000 received, 0% packet loss, time 12249ms
+rtt min/avg/max/mdev = 3.800/22.802/348.153/46.890 ms, pipe 21
+--
+date +%s.%N
+=====================================
+1366466860.367952348
+--
+date +%s.%N
+=====================================
+1366466860.621140818
+--
+date +%s.%N
+=====================================
+1366466860.802683378
+--
+date +%s.%N
+=====================================
+1366466861.074340481
+--
+date +%s.%N
+=====================================
+1366466861.584368610
+--
+date +%s.%N
+=====================================
+1366466861.806279755
+--
+date +%s.%N
+=====================================
+1366466861.969440059
+--
+--- fdbb::800c ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 12888ms
+rtt min/avg/max/mdev = 4.526/17.895/215.449/21.613 ms, pipe 9
+--
+--- fdba:11:800c::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10256ms
+rtt min/avg/max/mdev = 4.180/6.568/54.234/4.184 ms, pipe 5
+--
+--- fdba:12:800c::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10834ms
+rtt min/avg/max/mdev = 4.344/10.266/112.825/13.048 ms, pipe 8
+--
+--- fdba:14:800c::1 ping statistics ---
+1179 packets transmitted, 1000 received, 15% packet loss, time 18398ms
+rtt min/avg/max/mdev = 4.386/84.465/824.076/152.682 ms, pipe 36
+--
+date +%s.%N
+=====================================
+1366466926.938020222
+--
+date +%s.%N
+=====================================
+1366466927.153831693
+--
+date +%s.%N
+=====================================
+1366466927.346581773
+--
+date +%s.%N
+=====================================
+1366466927.619623486
+--
+date +%s.%N
+=====================================
+1366466928.147661140
+--
+date +%s.%N
+=====================================
+1366466928.371223752
+--
+date +%s.%N
+=====================================
+1366466928.543130929
+--
+--- fdbb::3cc ping statistics ---
+1002 packets transmitted, 1000 received, 0% packet loss, time 11967ms
+rtt min/avg/max/mdev = 3.906/18.199/312.068/32.381 ms, pipe 17
+--
+--- fdba:11:3cc::1 ping statistics ---
+1090 packets transmitted, 1000 received, 8% packet loss, time 11822ms
+rtt min/avg/max/mdev = 2.844/12.255/476.053/49.720 ms, pipe 29
+--
+--- fdba:12:3cc::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10152ms
+rtt min/avg/max/mdev = 3.733/4.961/40.855/1.953 ms, pipe 3
+--
+--- fdba:14:3cc::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 10183ms
+rtt min/avg/max/mdev = 3.491/5.344/49.513/2.685 ms, pipe 3
+--
+date +%s.%N
+=====================================
+1366466986.076385120
+--
+date +%s.%N
+=====================================
+1366466986.304423225
+--
+date +%s.%N
+=====================================
+1366466986.488337887
+--
+date +%s.%N
+=====================================
+1366466986.768221852
+--
+date +%s.%N
+=====================================
+1366466987.321591558
+--
+date +%s.%N
+=====================================
+1366466987.546419320
+--
+date +%s.%N
+=====================================
+1366466987.714486972
+--
+--- fdbb::8c7a ping statistics ---
+4 packets transmitted, 0 received, +3 errors, 100% packet loss, time 2996ms
+
+--
+--- fdba:11:8c7a::1 ping statistics ---
+1000 packets transmitted, 1000 received, 0% packet loss, time 11928ms
+rtt min/avg/max/mdev = 1.077/11.632/198.815/26.194 ms, pipe 13
+--
+--- fdba:12:8c7a::1 ping statistics ---
+8 packets transmitted, 0 received, +1 errors, 100% packet loss, time 118ms
+
+--
+--- fdba:14:8c7a::1 ping statistics ---
+7 packets transmitted, 0 received, +1 errors, 100% packet loss, time 109ms
+
+--
+date +%s.%N
+=====================================
+1366467014.690571912
+--
+date +%s.%N
+=====================================
+1366467014.915681539
+--
+date +%s.%N
+=====================================
+1366467015.115290821
+--
+date +%s.%N
+=====================================
+1366467015.384684895
+--
+date +%s.%N
+=====================================
+1366467015.924967457
+--
+date +%s.%N
+=====================================
+1366467016.158703488
+--
+date +%s.%N
+=====================================
+1366467016.320188099
+--
+--- fdbb::81c5 ping statistics ---
+1041 packets transmitted, 1020 received, 2% packet loss, time 15612ms
+rtt min/avg/max/mdev = 2.282/66.241/2386.986/264.832 ms, pipe 44
+--
+--- fdba:11:81c5::1 ping statistics ---
+1111 packets transmitted, 1000 received, 9% packet loss, time 19686ms
+rtt min/avg/max/mdev = 2.429/92.958/3958.197/398.305 ms, pipe 91
+--
+--- fdba:12:81c5::1 ping statistics ---
+1001 packets transmitted, 1000 received, 0% packet loss, time 11629ms
+rtt min/avg/max/mdev = 2.284/11.235/124.306/13.631 ms, pipe 8
+--
+--- fdba:14:81c5::1 ping statistics ---
+1053 packets transmitted, 1000 received, 5% packet loss, time 16342ms
+rtt min/avg/max/mdev = 2.156/145.724/960.417/237.509 ms, pipe 48
+--
+date +%s.%N
+=====================================
+1366467096.979843049
+--
+date +%s.%N
+=====================================
+1366467097.209574756
+--
+date +%s.%N
+=====================================
+1366467097.433496661
+--
+date +%s.%N
+=====================================
+1366467097.721417422
+--
+date +%s.%N
+=====================================
+1366467098.249391032
+--
+date +%s.%N
+=====================================
+1366467098.474043333
+--
+date +%s.%N
+=====================================
+1366467098.635800002
+--
+--- fdbb::60f0 ping statistics ---
+1010 packets transmitted, 1000 received, 0% packet loss, time 12844ms
+rtt min/avg/max/mdev = 5.139/26.491/245.791/35.576 ms, pipe 15
+--
+--- fdba:11:60f0::1 ping statistics ---
+1001 packets transmitted, 1000 received, 0% packet loss, time 11043ms
+rtt min/avg/max/mdev = 4.597/11.776/199.435/17.294 ms, pipe 11
+--
+--- fdba:12:60f0::1 ping statistics ---
+1008 packets transmitted, 1000 received, 0% packet loss, time 12490ms
+rtt min/avg/max/mdev = 4.522/55.231/1049.109/151.838 ms, pipe 59
