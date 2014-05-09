@@ -1,0 +1,133 @@
+1366458946.745098137
+====> babel
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    34.00      1216.47   7.58     6.43     498.939  423.235 
+1366459025.570174654
+====> bmx6
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.13      3211.90   9.59     9.56     244.797  243.953 
+1366459085.797220313
+====> batadv
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    31.38      1027.62   9.06     15.84    722.155  1262.850 
+1366459147.390105546
+====> olsr
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.39      3673.39   8.71     12.29    194.353  274.201 
+1366459207.954391412
+====> babel
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.15      1189.93   7.55     12.51    520.897  863.239 
+1366459268.233502831
+====> bmx6
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.36      4644.81   11.94    14.41    210.677  254.297 
+1366459328.694074095
+====> batadv
+--
+1366459731.752511313
+====> olsr
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.80      3832.55   8.69     12.46    185.825  266.596 
+1366459792.691350189
+====> babel
+1366459825.798139241
+====> bmx6
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.51       616.44   12.00    10.42    1600.176  1388.951 
+1366459886.629984465
+====> batadv
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    32.72       793.46   9.64     5.15     995.750  531.559 
+1366459950.372116042
+====> olsr
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.80      4300.46   9.86     13.80    187.937  262.976 
+1366460011.307342876
+====> babel
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    34.00       102.30   7.93     7.23     5263.598  4803.305 
+1366460082.319111757
+====> bmx6
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.57      2581.29   9.84     8.84     312.298  280.397 
+1366460143.004432561
+====> batadv
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.24      1148.42   9.72     6.75     695.795  483.113 
+1366460203.523856454
+====> olsr
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.66      2783.32   9.59     9.49     282.188  279.489 
+1366460264.328285744
+====> babel
+1366460294.375926481
+====> bmx6
+--
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^3bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.09      2485.50   10.16    9.57     335.139  315.854 
+1366460354.573147259
+====> batadv
+1366460387.532966535
+====> olsr
+1366460418.213432845
+====> babel
