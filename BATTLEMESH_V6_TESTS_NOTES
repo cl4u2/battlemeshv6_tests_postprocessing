@@ -1,0 +1,48 @@
+ = mobile test node =
+
+mobile node, gps trace, 54Mbps mcast rate
+2 tests performed
+mobile_node0.tar.gz
+mobile_route-0.gpx
+
+mobile_node1.tar.gz
+mobile_route-1.gpx
+
+= running test node =
+
+same as above but running
+
+
+= netperf test =
+
+24Mbps mcast rate, netperf to a far away node
+
+first test (test 0): selected address order
+
+second test: changed protocol order
+
+third test: 30 seconds netperf 30 seconds sleep, changed trace script to send 3 probes
+
+
+NOTES FOR POST-PROCESSING: if a node is completely disconnected (i.e. all the traceroutes don't reach a node) don't consider that netperf
+
+there was a revert to a 54Mbps network 8 minutes before 1366459808.15, probably during the third test
+HT40+ has constraints on the multicast rate
+
+
+fourth test: 6Mbps
+
+fifth test: all the protocols on 5GHz only
+
+= random ping test =
+
+Multicast rate is now 6Mbps
+
+first test: sequential pings
+
+second test: parallel pings, some possible work going on on the mesh
+third test: parallel pings, mesh only on 5GHz
+
+
+
+
