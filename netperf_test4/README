@@ -1,3 +1,6 @@
+* This test has only one good result, you can skip it! *
+
+
 
 netperf to a "far away" node, multicast rate set to 6Mbps, all nodes/protocols on 5GHz only
 
@@ -9,5 +12,6 @@ the protocols are tested serially in a loop in the following order (note that th
  * olsr
 
 The netperfs last 30 seconds and these are interleaved by 30 second intervals
+
 
 
