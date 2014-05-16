@@ -2,11 +2,16 @@
 
 # grep -A2  "\(date \|ping statistics\)" screenlog.0 > processed0.txt
 
+readystring=0
 cat $1 | while read line; do
     #echo $line
     if echo $line | grep '^136[0-9]*\.' > /dev/null; then
         timestamp=$line
     elif echo $line | grep "ping statistics" > /dev/null; then
+        if [ $readystring ]; then
+            echo "$protocol $timestamp $packetloss $minrtt $avgrtt $maxrtt"
+            readystring=0
+        fi
         aftercolon=$( echo $line | awk '{print $2}' | cut -d ':' -f 2 )
         case $aftercolon in
             *1)
@@ -24,10 +29,14 @@ cat $1 | while read line; do
         esac
     elif echo $line | grep "packet loss" > /dev/null; then
         packetloss=$( echo $line | grep -o "[0-9]*\% packet loss" | tr '%' ' ' | awk '{print $1}')
+        minrtt=-500
+        avgrtt=-500
+        maxrtt=-500
+        readystring=1
     elif echo $line | grep "^rtt min" > /dev/null; then
         minrtt=$( echo $line | awk '{print $4}' | cut -d "/" -f 1)
         avgrtt=$( echo $line | awk '{print $4}' | cut -d "/" -f 2)
         maxrtt=$( echo $line | awk '{print $4}' | cut -d "/" -f 3)
-        echo "$protocol $timestamp $packetloss $minrtt $avgrtt $maxrtt"
     fi
 done
+
