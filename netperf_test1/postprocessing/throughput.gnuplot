@@ -1,6 +1,6 @@
 #!/usr/bin/gnuplot
 
-set terminal png notransparent truecolor large enhanced font DejaVuSansMono 10 size 1024,768;
+set terminal png notransparent truecolor large enhanced font DejaVuSansMono 16 size 1024,768;
 
 set output 'out.png';
 

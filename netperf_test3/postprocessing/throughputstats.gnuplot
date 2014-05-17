@@ -4,8 +4,8 @@ set terminal png notransparent truecolor large enhanced font DejaVuSansMono 16 s
 
 set output 'out.png';
 
-set title 'Random Ping Test 1'
-set ylabel 'Average RTT (ms)';
+set title 'Netperf Throughput Test 3'
+set ylabel 'throughput (Kbps)';
 set xlabel 'Routing Protocols';
 #set xtics 5
 #set grid xtics ytics mytics;
@@ -17,7 +17,7 @@ set grid ytics mytics;
 #set rmargin 5
 set offset graph 0.1, 0.1
 
-set yrange [0:60] 
+#set yrange [0:300] 
 
 
 set style data boxplot
@@ -31,10 +31,10 @@ set style fill transparent solid 0.05
 #timemin1=0
 
 plot \
- 'data/allpings_babel.txt'    using (1):2 notitle ls 2 lc 1 lw 2,\
- 'data/allpings_batadv.txt'   using (2):2 notitle ls 2 lc 2 lw 2,\
- 'data/allpings_olsr.txt'     using (3):2 notitle ls 2 lc 3 lw 2,\
- 'data/allpings_bmx6.txt'     using (4):2 notitle ls 2 lc 4 lw 2;
+ 'data/netperfdata2.throughput.babel'    using (1):2 notitle ls 2 lc 1 lw 2,\
+ 'data/netperfdata2.throughput.batadv'   using (2):2 notitle ls 2 lc 2 lw 2,\
+ 'data/netperfdata2.throughput.bmx6'     using (3):2 notitle ls 2 lc 3 lw 2,\
+ 'data/netperfdata2.throughput.olsr'     using (4):2 notitle ls 2 lc 4 lw 2;
 
 #plot \
 # 'data/babel.txt'  using (1):5 notitle ls 2 lc 1,\
